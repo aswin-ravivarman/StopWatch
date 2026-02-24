@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left side stopwatch */
+.stopwatch {
+    width: 50%;
+}
+
+/* Right side lap list */
+.laps {
+    width: 40%;
+}
+
+/* Timer display */
+h3 {
+    font-size: 30px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Lap list */
+ol {
+    margin-top: 10px;
+}
